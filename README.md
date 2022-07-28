@@ -10,7 +10,6 @@ Once we are ready with our circuit we can connect the Arduino to computer and up
 CONVERTING Analogread values from microphone to Decibel:
 
 sensorValue = analogRead(A0); //where A0 is the analoginpin
-
 double db = 20.0 * log10 (sensorValue + 1.); //this is the basic formula to convert analog read values to decibel
 
 CODE EXPLANATION:
